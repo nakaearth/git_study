@@ -1,0 +1,34 @@
+git add .
+
+git commit -m'hoge'
+
+git commit -a -m'update file'
+
+git reset
+
+git checkout -- sample.txt
+
+git reset HEAD  <======= ADDする前に戻る。Indexを戻す
+
+git reset --hard HEAD <======ファイルの状態を戻す
+git reset --hard HEAD~2 <======2個前にファイルの状態を戻す
+
+git config -l
+
+
+git branch
+git branch -a
+
+git branch test
+git checkout test
+git merge test
+git merge --no-ff test
+
+
+.gitconfigに以下の行を追加
+
+[core]
+  editor=vim
+
+・GUIツール
+sourceTree
